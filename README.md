@@ -20,6 +20,7 @@ State.java: ArrayList<State> getSuccessors(boolean[][] explored, Maze maze)
 5. the maximum size of Frontier at any point during the search.  
 
 To compile and run:
-$java FindPath maze search-method, where search-method can be either 'bfs' or 'astar'. maze is the input file. 
+$java FindPath maze search-method -> where 'search-method' can be either 'bfs' or 'astar'. 'maze' is the input file.
+
 Example: java FindPath input.txt bfs
-[sample input and output files provided for testing]
+(sample input and output files provided for testing)
